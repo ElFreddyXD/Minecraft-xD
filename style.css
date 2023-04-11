@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+header {
+    background-color: #171615;
+}
+
+.logo img {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+table {
+    margin: 50px;
+}
+
+th {
+    background-color: rgb(0, 168, 0);
+    font-family: Helvetica, sans-serif;
+    padding-right: 5px;
+    color: white;
+}
+
+td {
+    border: 2px solid rgb(92, 61, 46);
+    color: rgb(161, 161, 161);
+    background-color: rgb(92, 61, 46);
+    padding: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
